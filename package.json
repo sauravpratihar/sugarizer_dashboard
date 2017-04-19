@@ -1,7 +1,7 @@
 {
-  "name": "learn",
+  "name": "Sugarizer_Deshboard",
   "version": "1.0.0",
-  "description": "learning app",
+  "description": "Sugarizer",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.17.1",
