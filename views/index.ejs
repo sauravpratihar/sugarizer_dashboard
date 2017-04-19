@@ -1,0 +1,23 @@
+<% include part/header %>
+
+<% if(data=='journal') { %>
+    <% include sections/journal  %>
+<% } %>
+
+<% if(data=="activity") { %>
+    <% include sections/activity %>
+<% } %>
+    
+<% if(data=="activitylist") { %>
+    <% include sections/update %>
+<% } %>
+    
+<% if(data=="student"){ %>
+    <% include sections/student %>
+<% }  %>
+
+<% if(data=="map"){ %>
+    <h2 class="center">Not yet implemented</h2>
+<% }  %>
+   
+<% include part/footer %>
